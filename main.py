@@ -84,9 +84,9 @@ def parse_list_file(link, output_directory):
     df = df[~df['pattern'].str.contains('#')].reset_index(drop=True)
 
     # 映射字典
-    map_dict = {'DOMAIN-SUFFIX': 'domain_suffix', 'HOST-SUFFIX': 'domain_suffix', 'DOMAIN': 'domain', 'HOST': 'domain', 'host': 'domain',
-                'DOMAIN-KEYWORD':'domain_keyword', 'HOST-KEYWORD': 'domain_keyword', 'host-keyword': 'domain_keyword', 'GEOIP': 'geoip', 'DST-PORT': 'port',
-                'SRC-PORT': 'source_port', "URL-REGEX": "domain_regex"}
+    map_dict = {'IP-CIDR': 'ip_cidr',
+                'ip-cidr': 'ip_cidr', 'IP-CIDR6': 'ip_cidr', 
+                'IP6-CIDR': 'ip_cidr'}
 
     # 删除不在字典中的pattern
     df = df[df['pattern'].isin(map_dict.keys())].reset_index(drop=True)
