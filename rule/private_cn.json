@@ -1,0 +1,43 @@
+{
+  "rules": [
+    {
+      "domain": [
+        "7xiazai.com",
+        "aliprice.com",
+        "apphot.cc",
+        "asuscomm.com",
+        "btbtt12.com",
+        "dayanzai.me",
+        "ip.fm",
+        "ip.run",
+        "ip138.com",
+        "mefcl.com",
+        "ping0.cc",
+        "shoudian.org",
+        "srtku.com",
+        "vpng.net",
+        "zmk.pw"
+      ]
+    },
+    {
+      "domain_suffix": [
+        ".7xiazai.com",
+        ".aliprice.com",
+        ".apphot.cc",
+        ".asuscomm.com",
+        ".btbtt12.com",
+        ".dayanzai.me",
+        ".ip.fm",
+        ".ip.run",
+        ".ip138.com",
+        ".mefcl.com",
+        ".ping0.cc",
+        ".shoudian.org",
+        ".srtku.com",
+        ".vpng.net",
+        ".zmk.pw"
+      ]
+    }
+  ],
+  "version": 1
+}

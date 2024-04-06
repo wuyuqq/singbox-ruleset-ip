@@ -1,0 +1,25 @@
+{
+  "rules": [
+    {
+      "domain": [
+        "t.me",
+        "tdesktop.com",
+        "telegra.ph",
+        "telegram.me",
+        "telegram.org",
+        "telesco.pe"
+      ]
+    },
+    {
+      "domain_suffix": [
+        ".t.me",
+        ".tdesktop.com",
+        ".telegra.ph",
+        ".telegram.me",
+        ".telegram.org",
+        ".telesco.pe"
+      ]
+    }
+  ],
+  "version": 1
+}
